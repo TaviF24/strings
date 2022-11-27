@@ -5,7 +5,7 @@ if len(sys.argv)==3:
     if setting=="1" and language=="RO":
         f=open("settings.txt", "w")
         f.write(setting)
-        f.write("\n")
+        f.write14("\n")
         f.write(language)
         f.close()
     elif setting=="0":
